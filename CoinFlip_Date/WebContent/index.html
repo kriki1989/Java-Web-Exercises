@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Coin Flip or Date Display</title>
+</head>
+<body>
+
+	<p>Please click a button to redirect you to the page you wish to go	to.</p>
+	<br>
+	<form>
+		<input type="button" id="idname" value="Coin Flip" onclick="goToInfo()" /><br>
+	</form>
+	<br>
+	<form>
+		<input type="button" id="idname" value="Date" onclick="goToOther()" /><br>
+	</form>
+
+	<script type="text/javascript">
+        function goToInfo(){
+        	window.location = './coinFlip.jsp';
+        }
+
+        function goToOther(){
+        	window.location = './date.jsp';
+        }
+        </script>
+</body>
+</html>
